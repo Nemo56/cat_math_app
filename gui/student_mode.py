@@ -8,24 +8,7 @@ from core.data_loader import load_all_items
 from config import THETA_LEVELS
 
 
-
-# gui/student_mode.py
-
 class StudentMode(tk.Frame):
-#     def __init__(self, master):
-#         super().__init__(master)
-#         self.master = master
-
-#         # Очищаем предыдущий фрейм
-#         self.master.clear_frame()
-
-#         # Создаём новый интерфейс
-#         tk.Label(self, text="Введите ваше имя и фамилию:", font=("Arial", 14)).pack(pady=10)
-#         self.name_entry = tk.Entry(self, width=40, font=("Arial", 12))
-#         self.name_entry.pack(pady=5)
-
-#         tk.Button(self, text="Начать тест", command=self.start_test).pack(pady=10)
-
     def __init__(self, master):
         super().__init__(master)
         self.master = master
@@ -36,21 +19,6 @@ class StudentMode(tk.Frame):
         # === Начальный интерфейс ===
         tk.Label(self, text="Введите ваше имя и фамилию:", font=("Arial", 14)).pack(pady=10)
 
-        self.name_entry = tk.Entry(self, textvariable=self.student_name, width=40, font=("Arial", 12))
-        self.name_entry.pack(pady=5)
-
-        self.start_button = tk.Button(self, text="Начать тест", command=self.start_test)
-        self.start_button.pack(pady=10)
-
-# class StudentMode(tk.Frame):
-#     def __init__(self, master):
-#         super().__init__(master)
-#         self.master = master
-
-#         self.student_name = tk.StringVar()
-
-        # === Ввод имени ученика ===
-        tk.Label(self, text="Введите ваше имя и фамилию:", font=("Arial", 14)).pack(pady=10)
         self.name_entry = tk.Entry(self, textvariable=self.student_name, width=40, font=("Arial", 12))
         self.name_entry.pack(pady=5)
 
