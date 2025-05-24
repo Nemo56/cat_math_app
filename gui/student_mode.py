@@ -8,12 +8,30 @@ from core.data_loader import load_all_items
 from config import THETA_LEVELS
 
 
+
+# gui/student_mode.py
+
 class StudentMode(tk.Frame):
     def __init__(self, master):
         super().__init__(master)
         self.master = master
 
-        self.student_name = tk.StringVar()
+        # Очищаем предыдущий фрейм
+        self.master.clear_frame()
+
+        # Создаём новый интерфейс
+        tk.Label(self, text="Введите ваше имя и фамилию:", font=("Arial", 14)).pack(pady=10)
+        self.name_entry = tk.Entry(self, width=40, font=("Arial", 12))
+        self.name_entry.pack(pady=5)
+
+        tk.Button(self, text="Начать тест", command=self.start_test).pack(pady=10)
+
+# class StudentMode(tk.Frame):
+#     def __init__(self, master):
+#         super().__init__(master)
+#         self.master = master
+
+#         self.student_name = tk.StringVar()
 
         # === Ввод имени ученика ===
         tk.Label(self, text="Введите ваше имя и фамилию:", font=("Arial", 14)).pack(pady=10)
@@ -144,7 +162,18 @@ class StudentMode(tk.Frame):
         self.pack_forget()  # Отвязываем от layout
         self.destroy()      # Уничтожаем текущий фрейм
         StudentMode(self.master).pack(fill="both", expand=True)  # Создаём новый и прикрепляем
-
+    
+    def reset_state(self):
+        """Сброс всех переменных перед началом теста"""
+        self.student_name = tk.StringVar()
+        self.items = {}           # Все задачи
+        self.used_ids = set()     # Использованные ID
+        self.responses = {}       # Ответы ученика
+        self.theta = 0.0          # Начальная оценка уровня знаний
+        self.theta_history = [self.theta]  # История theta
+        self.questions = []       # Список вопросов и ответов
+        self.current_step = 0     # Текущий шаг
+        self.max_questions = 10   # Максимальное число вопросов
     
 
 
