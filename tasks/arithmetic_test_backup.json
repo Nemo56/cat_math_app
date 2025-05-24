@@ -1,163 +1,1022 @@
 [
   {
-    "id": "math_001",
-    "type": "arithmetic",
-    "text": "Сколько будет 7 × 8?",
-    "correct_answer": "56",
-    "irt": {
-      "model": "3pl",
-      "a": 1.2,
-      "b": 0.5,
-      "c": 0.2
-    }
-  },
-  {
-    "id": "math_002",
-    "type": "arithmetic",
-    "text": "Чему равно 99 - 45?",
-    "correct_answer": "54",
-    "irt": {
-      "model": "3pl",
-      "a": 1.0,
-      "b": 0.0,
-      "c": 0.1
-    }
-  },
-
-  {
-    "id": "math_0004",
-    "type": "arithmetic",
+    "id": "math_0006",
+    "type": "unknown",
     "subject": "математика",
     "topic": "",
     "difficulty": "средний",
-    "text": "Найдите разность 81 – 43",
+    "text": "20−11=",
     "options": [],
-    "correct_answer": "38",
+    "correct_answer": "9",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": 1.4,
+      "b": -2.0,
+      "c": 0.9
+    }
+  },
+  {
+    "id": "math_0007",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "4×7=",
+    "options": [],
+    "correct_answer": "28",
     "solution": "",
     "irt": {
       "model": "3pl",
       "a": 1.0,
-      "b": 0.0,
-      "c": 3.0
+      "b": 1.0,
+      "c": 0.2
     }
   },
   {
-    "id": "math_0003",
-    "type": "arithmetic",
+    "id": "math_0008",
+    "type": "unknown",
     "subject": "математика",
     "topic": "",
     "difficulty": "средний",
-    "text": "Вычисли: 45 + 27",
+    "text": "36÷6=",
     "options": [],
-    "correct_answer": "72",
+    "correct_answer": "6",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": 2.0,
+      "b": 2.0,
+      "c": 0.2
+    }
+  },
+  {
+    "id": "math_0014",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "30−14=",
+    "options": [],
+    "correct_answer": "16",
     "solution": "",
     "irt": {
       "model": "3pl",
       "a": 2.0,
       "b": 1.0,
-      "c": 2.0
+      "c": 0.4
+    }
+  },
+  {
+    "id": "math_0015",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "6×8=",
+    "options": [],
+    "correct_answer": "48",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": 2.0,
+      "b": 1.0,
+      "c": 0.2
+    }
+  },
+  {
+    "id": "math_0016",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "72÷9=",
+    "options": [],
+    "correct_answer": "8",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": 1.0,
+      "b": 2.0,
+      "c": 0.2
+    }
+  },
+  {
+    "id": "math_0017",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "11+19=",
+    "options": [],
+    "correct_answer": "30",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": 1.0,
+      "b": -2.0,
+      "c": 0.2
+    }
+  },
+  {
+    "id": "math_0018",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "40−22=",
+    "options": [],
+    "correct_answer": "18",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": 2.0,
+      "b": -1.0,
+      "c": 0.7
+    }
+  },
+  {
+    "id": "math_0019",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "7×7=",
+    "options": [],
+    "correct_answer": "49",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": 2.0,
+      "b": 1.0,
+      "c": 0.5
+    }
+  },
+  {
+    "id": "math_0020",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "81÷9=",
+    "options": [],
+    "correct_answer": "9",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": 0.5,
+      "b": 2.0,
+      "c": 0.5
+    }
+  },
+  {
+    "id": "math_0021",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "23+17=",
+    "options": [],
+    "correct_answer": "40",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": 1.5,
+      "b": 2.0,
+      "c": 0.5
+    }
+  },
+  {
+    "id": "math_0022",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "55−25=",
+    "options": [],
+    "correct_answer": "30",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": 1.0,
+      "b": 2.0,
+      "c": 0.5
+    }
+  },
+  {
+    "id": "math_0023",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "9×6=",
+    "options": [],
+    "correct_answer": "54",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": 2.0,
+      "b": 1.0,
+      "c": 0.5
+    }
+  },
+  {
+    "id": "math_0024",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "100÷10=",
+    "options": [],
+    "correct_answer": "10",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": 2.0,
+      "b": 2.0,
+      "c": 0.5
+    }
+  },
+  {
+    "id": "math_0025",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "14+26=",
+    "options": [],
+    "correct_answer": "40",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": 1.0,
+      "b": -2.0,
+      "c": 0.6
+    }
+  },
+  {
+    "id": "math_0026",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "18−9=",
+    "options": [],
+    "correct_answer": "9",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": 1.5,
+      "b": -2.0,
+      "c": 0.1
+    }
+  },
+  {
+    "id": "math_0027",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "2×12=",
+    "options": [],
+    "correct_answer": "24",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": 2.0,
+      "b": 1.0,
+      "c": 0.5
+    }
+  },
+  {
+    "id": "math_0028",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "45÷5=",
+    "options": [],
+    "correct_answer": "9",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": 1.0,
+      "b": -1.0,
+      "c": 0.5
+    }
+  },
+  {
+    "id": "math_0029",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "16+24=",
+    "options": [],
+    "correct_answer": "40",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": 0.9,
+      "b": 2.0,
+      "c": 0.1
+    }
+  },
+  {
+    "id": "math_0034",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "60−35=",
+    "options": [],
+    "correct_answer": "25",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": 2.0,
+      "b": -2.0,
+      "c": 0.2
+    }
+  },
+  {
+    "id": "math_0039",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "4×11=",
+    "options": [],
+    "correct_answer": "44",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": 1.0,
+      "b": 3.0,
+      "c": 0.2
+    }
+  },
+  {
+    "id": "math_0040",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "56÷7=",
+    "options": [],
+    "correct_answer": "8",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": 1.0,
+      "b": 2.0,
+      "c": 0.6
+    }
+  },
+  {
+    "id": "math_0041",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "31+29=",
+    "options": [],
+    "correct_answer": "60",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": 1.5,
+      "b": 3.0,
+      "c": 1.0
+    }
+  },
+  {
+    "id": "math_0042",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "90−45=",
+    "options": [],
+    "correct_answer": "45",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": 2.0,
+      "b": 2.0,
+      "c": 0.5
+    }
+  },
+  {
+    "id": "math_0043",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "6×7=",
+    "options": [],
+    "correct_answer": "42",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": 1.0,
+      "b": 1.0,
+      "c": 0.5
+    }
+  },
+  {
+    "id": "math_0044",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "32÷4=",
+    "options": [],
+    "correct_answer": "8",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": 2.0,
+      "b": -2.0,
+      "c": 0.5
+    }
+  },
+  {
+    "id": "math_0045",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "25+35=",
+    "options": [],
+    "correct_answer": "60",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": 2.0,
+      "b": -3.0,
+      "c": 0.1
+    }
+  },
+  {
+    "id": "math_0046",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "80−39=",
+    "options": [],
+    "correct_answer": "41",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": 2.0,
+      "b": -2.0,
+      "c": 0.5
+    }
+  },
+  {
+    "id": "math_0048",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "27÷3=",
+    "options": [],
+    "correct_answer": "9",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": 1.0,
+      "b": -1.0,
+      "c": 0.1
+    }
+  },
+  {
+    "id": "math_0049",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "44+16=",
+    "options": [],
+    "correct_answer": "60",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": 2.0,
+      "b": 2.0,
+      "c": 0.5
+    }
+  },
+  {
+    "id": "math_0050",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "100−55=",
+    "options": [],
+    "correct_answer": "45",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": 2.0,
+      "b": 3.0,
+      "c": 0.1
+    }
+  },
+  {
+    "id": "math_0051",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "Запиши числа в густые клетки таблицы.",
+    "options": [],
+    "correct_answer": "",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": null,
+      "b": null,
+      "c": null
+    }
+  },
+  {
+    "id": "math_0057",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "Составь уравнения и реши.",
+    "options": [],
+    "correct_answer": "",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": null,
+      "b": null,
+      "c": null
+    }
+  },
+  {
+    "id": "math_0059",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "Сумму чисел х и 320 уменьшили на 130 и получили",
+    "options": [],
+    "correct_answer": "",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": null,
+      "b": null,
+      "c": null
+    }
+  },
+  {
+    "id": "math_0060",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "Сумма 679 и х равна разности чисел 1000 и",
+    "options": [],
+    "correct_answer": "",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": null,
+      "b": null,
+      "c": null
+    }
+  },
+  {
+    "id": "math_0062",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "303005 □ 330050\t400 + 340 □ 880 - 190",
+    "options": [],
+    "correct_answer": "",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": null,
+      "b": null,
+      "c": null
+    }
+  },
+  {
+    "id": "math_0063",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "6150 □ 6240\t28 : 4 □ 91 : 13",
+    "options": [],
+    "correct_answer": "",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": null,
+      "b": null,
+      "c": null
+    }
+  },
+  {
+    "id": "math_0064",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "2001 □ 1002\t90 • 5 □ 730 - 280",
+    "options": [],
+    "correct_answer": "",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": null,
+      "b": null,
+      "c": null
+    }
+  },
+  {
+    "id": "math_0066",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "Из двух одинаковых треугольников с равными сторонами Толя /\t\\.",
+    "options": [],
+    "correct_answer": "",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": null,
+      "b": null,
+      "c": null
+    }
+  },
+  {
+    "id": "math_0068",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "ка, если длина стороны треугольника равна 7 см.\t/",
+    "options": [],
+    "correct_answer": "",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": null,
+      "b": null,
+      "c": null
+    }
+  },
+  {
+    "id": "math_0072",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "Из двух городов одновременно навстречу друг другу выехали два мотоциклиста. Скорость одного из них 50 км/ч, а другого — 55 км/ч. Мотоциклисты встретились через 2 ч. Какое расстояние между городами?",
+    "options": [],
+    "correct_answer": "",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": null,
+      "b": null,
+      "c": null
+    }
+  },
+  {
+    "id": "math_0001",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "5+7=",
+    "options": [],
+    "correct_answer": "12",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": 1.0,
+      "b": 2.0,
+      "c": 0.3
+    }
+  },
+  {
+    "id": "math_0002",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "12−4=",
+    "options": [],
+    "correct_answer": "8",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": 1.0,
+      "b": 1.0,
+      "c": 0.2
+    }
+  },
+  {
+    "id": "math_0003",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "3×6=",
+    "options": [],
+    "correct_answer": "18",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": 1.0,
+      "b": 1.0,
+      "c": 0.2
+    }
+  },
+  {
+    "id": "math_0004",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "24÷8=",
+    "options": [],
+    "correct_answer": "3",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": 0.4,
+      "b": 1.0,
+      "c": 0.8
     }
   },
   {
     "id": "math_0005",
-    "type": "arithmetic",
+    "type": "unknown",
     "subject": "математика",
     "topic": "",
     "difficulty": "средний",
-    "text": "Реши примеры.",
+    "text": "9+15=",
     "options": [],
-    "correct_answer": "",
+    "correct_answer": "24",
     "solution": "",
     "irt": {
       "model": "3pl",
-      "a": null,
-      "b": null,
-      "c": null
+      "a": 0.9,
+      "b": 2.0,
+      "c": 0.2
+    }
+  },
+  {
+    "id": "math_0009",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "8+9=",
+    "options": [],
+    "correct_answer": "17",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": 1.0,
+      "b": 2.0,
+      "c": 0.2
+    }
+  },
+  {
+    "id": "math_0010",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "25−13=",
+    "options": [],
+    "correct_answer": "12",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": 2.0,
+      "b": 1.0,
+      "c": 0.2
+    }
+  },
+  {
+    "id": "math_0011",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "5×9=",
+    "options": [],
+    "correct_answer": "45",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": 0.4,
+      "b": -1.0,
+      "c": 0.2
+    }
+  },
+  {
+    "id": "math_0012",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "50÷5=",
+    "options": [],
+    "correct_answer": "10",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": 0.9,
+      "b": -2.0,
+      "c": 0.8
     }
   },
   {
     "id": "math_0013",
-    "type": "arithmetic",
+    "type": "unknown",
     "subject": "математика",
     "topic": "",
     "difficulty": "средний",
-    "text": "Реши примеры.",
+    "text": "17+8=17+8=",
     "options": [],
-    "correct_answer": "",
+    "correct_answer": "25",
     "solution": "",
     "irt": {
       "model": "3pl",
-      "a": null,
-      "b": null,
-      "c": null
+      "a": 1.0,
+      "b": 2.0,
+      "c": 0.2
+    }
+  },
+  {
+    "id": "math_0030",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "50−18=",
+    "options": [],
+    "correct_answer": "32",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": 1.8,
+      "b": 2.0,
+      "c": 0.5
+    }
+  },
+  {
+    "id": "math_0031",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "3×9=",
+    "options": [],
+    "correct_answer": "27",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": 2.0,
+      "b": 2.0,
+      "c": 0.5
+    }
+  },
+  {
+    "id": "math_0032",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "64÷8=",
+    "options": [],
+    "correct_answer": "8",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": 1.0,
+      "b": 1.0,
+      "c": 0.5
+    }
+  },
+  {
+    "id": "math_0033",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "27+13=",
+    "options": [],
+    "correct_answer": "40",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": 1.0,
+      "b": -2.0,
+      "c": 0.5
+    }
+  },
+  {
+    "id": "math_0035",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "8×5=",
+    "options": [],
+    "correct_answer": "40",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": 1.0,
+      "b": 3.0,
+      "c": 0.6
+    }
+  },
+  {
+    "id": "math_0036",
+    "type": "unknown",
+    "subject": "математика",
+    "topic": "",
+    "difficulty": "средний",
+    "text": "49÷7=",
+    "options": [],
+    "correct_answer": "7",
+    "solution": "",
+    "irt": {
+      "model": "3pl",
+      "a": 2.0,
+      "b": 1.0,
+      "c": 0.5
     }
   },
   {
     "id": "math_0037",
-    "type": "arithmetic",
+    "type": "unknown",
     "subject": "математика",
     "topic": "",
     "difficulty": "средний",
-    "text": "Реши примеры.",
+    "text": "22+18=",
     "options": [],
-    "correct_answer": "",
+    "correct_answer": "40",
     "solution": "",
     "irt": {
       "model": "3pl",
-      "a": null,
-      "b": null,
-      "c": null
+      "a": 1.0,
+      "b": -1.0,
+      "c": 0.5
     }
   },
   {
     "id": "math_0038",
-    "type": "arithmetic",
+    "type": "unknown",
     "subject": "математика",
     "topic": "",
     "difficulty": "средний",
-    "text": "Запиши выражения и вычисли значения.",
+    "text": "70−28=",
     "options": [],
-    "correct_answer": "",
+    "correct_answer": "42",
     "solution": "",
     "irt": {
       "model": "3pl",
-      "a": null,
-      "b": null,
-      "c": null
+      "a": 1.0,
+      "b": -2.0,
+      "c": 0.5
     }
   },
   {
-    "id": "math_0056",
-    "type": "arithmetic",
+    "id": "math_0047",
+    "type": "unknown",
     "subject": "математика",
     "topic": "",
     "difficulty": "средний",
-    "text": "*■- Реши примеры.",
+    "text": "7×8=",
     "options": [],
-    "correct_answer": "",
+    "correct_answer": "56",
     "solution": "",
     "irt": {
       "model": "3pl",
-      "a": null,
-      "b": null,
-      "c": null
-    }
-  },
-  {
-    "id": "math_0058",
-    "type": "arithmetic",
-    "subject": "математика",
-    "topic": "",
-    "difficulty": "средний",
-    "text": "Разность числа 800 и суммы 145 и х равна",
-    "options": [],
-    "correct_answer": "",
-    "solution": "",
-    "irt": {
-      "model": "3pl",
-      "a": null,
-      "b": null,
-      "c": null
+      "a": 2.0,
+      "b": -3.0,
+      "c": 0.2
     }
   }
 ]
