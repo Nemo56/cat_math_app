@@ -113,12 +113,4 @@ class CATApp(tk.Tk):
         self.current_frame = ttk.Frame(self)
         self.current_frame.pack(pady=20, padx=20, fill="both", expand=True)
     
-    # def open_teacher_login(self):
-    #     password = tk.simpledialog.askstring("Вход", "Введите пароль учителя:", show='*')
-    #     if password == TEACHER_PASSWORD:
-    #         self.clear_frame()  # ← Убедитесь, что этот метод уничтожает старые виджеты
-    #         TeacherMode(self).pack(fill="both", expand=True)
-    #     else:
-    #         messagebox.showerror("Ошибка", "Неверный пароль.")
-
-
+    

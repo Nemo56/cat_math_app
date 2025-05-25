@@ -35,6 +35,10 @@ def apply_theme(style, theme):
         style.map("TNotebook.Tab",
                   background=[('selected', '#ffffff')],
                   foreground=[('selected', '#007acc')])
+    
+ 
+
+
 
     elif theme == "dark":
         style.theme_use('clam')
