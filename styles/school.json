@@ -1,0 +1,22 @@
+{
+  "TFrame": {
+    "background": "#f0f8ff"
+  },
+  "TLabel": {
+    "background": "#f0f8ff",
+    "foreground": "#2a52be",
+    "font": ["Arial", 12]
+  },
+  "TButton": {
+    "background": "#ff9966",
+    "foreground": "#003366",
+    "font": ["Arial", 12, "bold"]
+  },
+  "RoundedButton.TButton": {
+    "background": "#ffcc00",
+    "foreground": "#003366",
+    "font": ["Arial", 14, "bold"],
+    "borderwidth": 3,
+    "relief": "raised"
+  }
+}

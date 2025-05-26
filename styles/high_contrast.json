@@ -1,0 +1,15 @@
+{
+  "TFrame": {
+    "background": "#000000"
+  },
+  "TLabel": {
+    "background": "#000000",
+    "foreground": "#ffff00",
+    "font": ["Arial", 14, "bold"]
+  },
+  "TButton": {
+    "background": "#ffffff",
+    "foreground": "#000000",
+    "font": ["Arial", 14, "bold"]
+  }
+}
