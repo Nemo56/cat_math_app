@@ -1,0 +1,18 @@
+{
+  "TFrame": {
+    "background": "#2e2e2e"
+  },
+  "TLabel": {
+    "background": "#2e2e2e",
+    "foreground": "#ffffff"
+  },
+  "TButton": {
+    "background": "#444444",
+    "foreground": "#ffffff"
+  },
+  "RoundedButton.TButton": {
+    "background": "#5555ff",
+    "foreground": "#ffffff",
+    "font": ["Arial", 14]
+  }
+}

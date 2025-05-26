@@ -24,27 +24,3 @@ def clear_frame(frame):
     """Очистка фрейма от виджетов"""
     for widget in frame.winfo_children():
         widget.destroy()
-
-
-# utils/helpers.py
-
-# import os
-
-
-# def list_reports():
-#     report_dir = "reports"
-#     if not os.path.exists(report_dir):
-#         os.makedirs(report_dir)
-
-#     files = []
-#     for root, _, filenames in os.walk(report_dir):
-#         for f in filenames:
-#             if f.endswith(('.xlsx', '.pdf')):
-#                 rel_path = os.path.relpath(os.path.join(root, f), report_dir)
-#                 files.append(rel_path)
-#     return sorted(files)
-
-
-# def clear_frame(frame):
-#     for widget in frame.winfo_children():
-#         widget.destroy()
